@@ -1,0 +1,15 @@
+# Dependencies - never commit these
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables - keep secrets safe
+.env
+backend/.env
+
+# React build
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
